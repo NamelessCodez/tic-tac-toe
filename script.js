@@ -37,8 +37,8 @@ const game = (function() {
 
    function controlGame() {
       const gameBoardArray = [null, null, null, null, null, null, null, null, null];
-      const player1 = Player('X', 'player 1');
-      const player2 = Player('O', 'player 2');
+      const player1 = Player('X', 'Player 1');
+      const player2 = Player('O', 'Player 2');
       let currentPlayer = player1;
       addMarks();
 

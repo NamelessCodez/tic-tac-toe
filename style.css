@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Roboto';
 }
 .game-board{
     width: 300px;
@@ -13,7 +14,13 @@ body {
     flex-wrap: wrap;
 }
 
- button {
+button {
     height: 100px;
     width: 100px;
+}
+.announcement-board {
+    font-size: 24px;
+}
+.refresh-button {
+    margin-top: 100px;
 }
